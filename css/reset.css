@@ -1,0 +1,71 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: 'Lato','Noto Sans JP','Helvetica Neue','Helvetica','Arial','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ','ＭＳ Ｐゴシック','MS PGothic','san-serif';
+  background: #fff;
+  color: #333333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.inner {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .inner {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .inner {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
